@@ -1,0 +1,11 @@
+.jumbotron {
+	text-align: center;
+}
+
+a {
+	color: #333;
+	&:hover {
+		text-decoration: none;
+		color: #ff0000;
+	}
+}

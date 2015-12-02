@@ -1,0 +1,22 @@
+{
+  "name": "PCAP Analyzer",
+  "homepage": "https://github.com/ajitkul/pcapAnalyzer",
+  "authors": [
+    "Ajit <ajit.kulkarni@synerzip.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}
