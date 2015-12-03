@@ -1,1 +1,1 @@
-var app = angular.module('pcapApp', []);
+var app = angular.module('pcapApp', ['ui.router']);

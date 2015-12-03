@@ -22,7 +22,8 @@ gulp.task('depsjs', function ()
 	return gulp.src(['bower_components/modernizr/modernizr.js',
 		'bower_components/jquery/dist/jquery.js',
 		'bower_components/bootstrap/dist/js/bootstrap.js',
-		'bower_components/angular/angular.min.js'])
+		'bower_components/angular/angular.min.js',
+		'bower_components/angular-ui-router/release/angular-ui-router.min.js'])
 		.pipe(concat('deps.js'))
 		.pipe(gulp.dest('src/bin'));
 });
