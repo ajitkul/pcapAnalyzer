@@ -6,6 +6,14 @@ app.config(function ($stateProvider,$urlRouterProvider) {
 
 	$stateProvider.state('home', {
 		url: '/home',
-		template: '<h1>Hi</h1>'
+		templateUrl: 'templates/main.html'
 	});
+});
+
+app.directive('header',function(){
+	return {
+		templateUrl:'templates/header.html',
+		restrict: 'E',
+		replace: true,
+	}
 });
