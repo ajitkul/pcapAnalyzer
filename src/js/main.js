@@ -1,5 +1,7 @@
 var app = angular.module('pcapApp', ['ui.router']);
 
+
+// Routes
 app.config(function ($stateProvider,$urlRouterProvider) {
 
 	$urlRouterProvider.otherwise('/home');
@@ -10,6 +12,7 @@ app.config(function ($stateProvider,$urlRouterProvider) {
 	});
 });
 
+// Directives
 app.directive('header',function(){
 	return {
 		templateUrl:'templates/header.html',
