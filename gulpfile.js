@@ -19,7 +19,8 @@ gulp.task('devjs', function ()
 
 gulp.task('depsjs', function ()
 {
-	return gulp.src(['bower_components/modernizr/modernizr.js',
+	return gulp.src([
+		'bower_components/modernizr/modernizr.js',
 		'bower_components/jquery/dist/jquery.js',
 		'bower_components/bootstrap/dist/js/bootstrap.js',
 		'bower_components/angular/angular.min.js',
@@ -40,6 +41,7 @@ gulp.task('depsDist', function ()
 gulp.task('devcss', function ()
 {
 	return gulp.src([
+		'bower_components/font-awesome/css/font-awesome.min.css',
 		'bower_components/bootstrap/dist/css/bootstrap.min.css',
 		'src/css/styles.css'])
 		.pipe(concat('pcapAnalyzer.css'))
@@ -64,7 +66,7 @@ gulp.task('watch', function ()
 		}
 	});
 	gulp.watch('src/js/*.js', ['devjs']);
-	gulp.watch('src/css/*.scss', ['sass-watch']);
+	gulp.watch('src/css/*.scss', ['sass-watch', 'devcss']);
 });
 
 gulp.task('default', function (callback)
