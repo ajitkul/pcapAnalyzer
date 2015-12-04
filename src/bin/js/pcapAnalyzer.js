@@ -33,6 +33,14 @@ app.directive('header',function(){
 	}
 });
 
+app.directive('footer',function(){
+	return {
+		templateUrl:'templates/footer.html',
+		restrict: 'E',
+		replace: true,
+	}
+});
+
  app.directive('stats',function() {
     	return {
   		templateUrl:'templates/stats.html',
