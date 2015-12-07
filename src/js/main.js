@@ -41,21 +41,20 @@ app.directive('footer',function(){
 	}
 });
 
- app.directive('stats',function() {
-    	return {
-  		templateUrl:'templates/stats.html',
-  		restrict:'E',
-  		replace:true,
-  		scope: {
-        'model': '=',
-        'comments': '@',
-        'number': '@',
-        'name': '@',
-        'colour': '@',
-        'details':'@',
-        'type':'@',
-        'goto':'@'
-  		}
-  		
-  	}
-  });
+app.directive('stats',function() {
+	return {
+		templateUrl:'templates/stats.html',
+		restrict:'E',
+		replace:true,
+		scope: {
+			'model': '=',
+			'comments': '@',
+			'number': '@',
+			'name': '@',
+			'colour': '@',
+			'details':'@',
+			'type':'@',
+			'goto':'@'
+		}
+	}
+});
