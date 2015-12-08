@@ -86,3 +86,8 @@ app.controller('MainCtrl', ['$scope', function ($scope) {
 	}
 	];
 }]);
+
+
+app.controller('FileUploadCtrl', ['$scope', function ($scope) {
+
+}]);

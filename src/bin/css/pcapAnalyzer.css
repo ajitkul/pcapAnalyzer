@@ -30,31 +30,34 @@ html, body {
 
 .panel-green {
   border-color: #5cb85c; }
-
-.panel-green .panel-heading {
-  border-color: #5cb85c;
-  color: #fff;
-  background-color: #5cb85c; }
-
-.panel-green a {
-  color: #5cb85c; }
-
-.panel-green a:hover {
-  color: #3d8b3d; }
+  .panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c; }
+  .panel-green a {
+    color: #5cb85c; }
+    .panel-green a:hover {
+      color: #3d8b3d; }
 
 .panel-red {
   border-color: #d9534f; }
-
-.panel-red .panel-heading {
-  border-color: #d9534f;
-  color: #fff;
-  background-color: #d9534f; }
-
-.panel-red a {
-  color: #d9534f; }
-
-.panel-red a:hover {
-  color: #b52b27; }
+  .panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f; }
+  .panel-red a {
+    color: #d9534f; }
+    .panel-red a:hover {
+      color: #b52b27; }
 
 .huge {
   font-size: 40px; }
+
+.grid {
+  width: 100%;
+  height: 250px; }
+
+.params {
+  color: #777;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7; }

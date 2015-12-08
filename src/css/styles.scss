@@ -1,5 +1,3 @@
-@import 'override';
-
 html, body {
 	width: 100%;
 	height: 100%;
@@ -24,14 +22,15 @@ html, body {
 .panel-green {
 	border-color: #5cb85c;
 	.panel-heading {
-		 border-color: #5cb85c;
-    	color: #fff;
-    	background-color: #5cb85c;
+		border-color: #5cb85c;
+		color: #fff;
+		background-color: #5cb85c;
 	}
 	a {
 		color: #5cb85c;
 		&:hover {
 			color: #3d8b3d;
+		}
 	}
 }
 
@@ -53,8 +52,13 @@ html, body {
 .huge {
     font-size: 40px;
 }
-
 .grid {
-  width: 500px;
+  width: 100%;
   height: 250px;
+}
+
+.params {
+	color: #777;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
 }

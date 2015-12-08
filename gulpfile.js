@@ -75,5 +75,5 @@ gulp.task('watch', function ()
 
 gulp.task('default', function (callback)
 {
-	runSequence('devjs', 'devcss', 'depsjs', 'depsDist', callback);
+	runSequence('devjs', 'sass', 'devcss', 'depsjs', 'depsDist', callback);
 });
