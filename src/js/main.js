@@ -63,26 +63,26 @@ app.controller('MainCtrl', ['$scope', function ($scope) {
 	$scope.problemGrid = {
 		enableSorting: false,
 		columnDefs: [
-		{ name: 'IP', field: 'ip' },
+		{ name: 'iP', field: 'ip' },
 		{ name: 'Issue Details', field: 'issue' },
 		{ name: 'Frame', field: 'frame' }
 		]
 	};
 	$scope.problemGrid.data = [
 	{
-		"ip": "172.168.24.1",
-		"issue": "Communication Across VLAN",
-		"frame": "Show Frame",
+		'ip': '172.168.24.1',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
 	},
 	{
-		"ip": "172.168.24.5",
-		"issue": "Communication Across VLAN",
-		"frame": "Show Frame",
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
 	},
 	{
-		"ip": "172.168.24.8",
-		"issue": "Communication Across VLAN",
-		"frame": "Show Frame",
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
 	}
 	];
 }]);
