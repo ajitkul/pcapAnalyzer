@@ -24,6 +24,9 @@ gulp.task('depsjs', function ()
 		'bower_components/jquery/dist/jquery.js',
 		'bower_components/bootstrap/dist/js/bootstrap.js',
 		'bower_components/angular/angular.min.js',
+		'bower_components/angular-touch/angular-touch.min.js',
+		'bower_components/angular-animate/angular-animate.min.js',
+		'bower_components/angular-ui-grid/ui-grid.min.js',
 		'bower_components/angular-ui-router/release/angular-ui-router.min.js'])
 		.pipe(concat('deps.js'))
 		.pipe(gulp.dest('src/bin'));
@@ -43,6 +46,7 @@ gulp.task('devcss', function ()
 	return gulp.src([
 		'bower_components/font-awesome/css/font-awesome.min.css',
 		'bower_components/bootstrap/dist/css/bootstrap.min.css',
+		'bower_components/angular-ui-grid/ui-grid.min.css',
 		'src/css/styles.css'])
 		.pipe(concat('pcapAnalyzer.css'))
 		.pipe(gulp.dest('src/bin/css'));

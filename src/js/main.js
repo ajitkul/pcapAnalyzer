@@ -1,4 +1,4 @@
-var app = angular.module('pcapApp', ['ui.router']);
+var app = angular.module('pcapApp', ['ui.router', 'ngTouch', 'ui.grid']);
 
 
 // Routes
@@ -58,3 +58,39 @@ app.directive('stats',function() {
 		}
 	}
 });
+
+
+app.controller('MainCtrl', ['$scope', function ($scope) {
+
+	$scope.problemGrid = {
+		enableSorting: false,
+		columnDefs: [
+		{ field: 'ip' },
+		{ field: 'issue' },
+		{ field: 'frame' }
+		]
+	};
+
+	$scope.problemGrid.data = [
+		{
+			"ip": "172.168.24.1",
+			"issue": "Communication Across VLAN",
+			"frame": "Show Frame",
+		},
+		{
+			"ip": "172.168.24.5",
+			"issue": "Communication Across VLAN",
+			"frame": "Show Frame",
+		},
+		{
+			"ip": "172.168.24.8",
+			"issue": "Communication Across VLAN",
+			"frame": "Show Frame",
+		}
+		];
+
+}]);
+
+
+
+
