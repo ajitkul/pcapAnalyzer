@@ -1,4 +1,4 @@
-var app = angular.module('pcapApp', ['ui.router', 'ngTouch', 'ui.grid']);
+var app = angular.module('pcapApp', ['ui.router', 'ngTouch', 'ui.grid', 'ngFileUpload']);
 
 
 // Routes
@@ -71,6 +71,76 @@ app.controller('MainCtrl', ['$scope', function ($scope) {
 	$scope.problemGrid.data = [
 	{
 		'ip': '172.168.24.1',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.5',
+		'issue': 'Communication Across VLAN',
+		'frame': 'Show Frame',
+	},
+	{
+		'ip': '172.168.24.8',
 		'issue': 'Communication Across VLAN',
 		'frame': 'Show Frame',
 	},

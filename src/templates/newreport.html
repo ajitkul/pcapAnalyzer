@@ -2,7 +2,12 @@
 	<header></header>
 	<div class="row">
 		<div ng-app="pcapApp" ng-controller="FileUploadCtrl">
-			Drop File:
+			<div class="vcenter">
+				<div ngf-drop ngf-select ng-model="files" class="drop-box" 
+				ngf-drag-over-class="'dragover'" ngf-multiple="true" ngf-allow-dir="true"
+				accept="application/vnd.tcpdump.pcap, application/cap" 
+				ngf-pattern=".pcap,.cap">Drop <i><b>.cap</i></b> or <i><b>.pcap</b></i> file here or <i><b>click</b></i> to upload</div>
+			</div>
 		</div>
 	</div>
 	<footer></footer>
