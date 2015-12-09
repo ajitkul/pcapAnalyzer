@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" ng-controller="NavCtrl">
   <nav class="navbar navbar-default">
     <div class="navbar-header">
       <a class="navbar-brand" ui-sref="home">PCAP Analyzer</a>
@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a ui-sref="newreport"><i class="fa fa-bar-chart-o fa-fw"></i> New Report</a></li>
-        <li><a ui-sref="previousreports"><i class="fa fa fa-history"></i> Previous Reports</a></li>
+        <li><a ng-click="showModal()"><i class="fa fa fa-history"></i> Previous Reports</a></li>
       </ul>
     </div>
   </nav>

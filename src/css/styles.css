@@ -66,3 +66,7 @@ html, body {
 
 .dragover {
   border: 5px dashed blue; }
+
+.reportGrid {
+  width: 500px;
+  height: 400px; }
