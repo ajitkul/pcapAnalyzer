@@ -40,7 +40,7 @@ html, body {
 
 .grid {
   width: 100%;
-  height: 400px; }
+  height: 350px; }
 
 .params {
   color: #777;
@@ -66,7 +66,3 @@ html, body {
 
 .dragover {
   border: 5px dashed blue; }
-
-.reportGrid {
-  width: 500px;
-  height: 400px; }

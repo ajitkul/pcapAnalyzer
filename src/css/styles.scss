@@ -3,7 +3,6 @@ html, body {
 	height: 100%;
 }
 
-
 .panel-yellow {
 	border-color: #f0ad4e;
 	.panel-heading {
@@ -52,9 +51,10 @@ html, body {
 .huge {
     font-size: 40px;
 }
+
 .grid {
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 
 .params {
@@ -81,11 +81,7 @@ html, body {
     padding-top: 25px;
     margin: 10px;
 }
+
 .dragover {
     border: 5px dashed blue;
-}
-
-.reportGrid {
-  width: 500px;
-  height: 400px;
 }

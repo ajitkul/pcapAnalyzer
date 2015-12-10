@@ -277,7 +277,7 @@ app.factory('modal', ['$compile', '$rootScope', function ($compile, $rootScope) 
     var modal = {
       open: function() {
  
-        var html = '<div class="modal" ng-style="{{modalStyle}}"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"></div><div class="modal-body"><div id="grid12" ui-grid="gridOptions" class="grid"></div></div><div class="modal-footer"><button id="buttonClose" class="btn btn-primary" ng-click="close()">Close</button></div></div></div></div>';
+        var html = '<div class="modal" ng-style="{{modalStyle}}"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><i class="fa fa fa-history"></i> <b>Previous Reports </b></div><div class="modal-body"><div style="padding-bottom: 15px;"><i class="fa fa-info-circle"></i>  <i>Double click on the row to view the report details </i></div><div id="grid12" ui-grid="gridOptions" class="grid"></div></div><div class="modal-footer"><button id="buttonClose" class="btn btn-primary" ng-click="close()">Close</button></div></div></div></div>';
         elm = angular.element(html);
         angular.element(document.body).prepend(elm);
  
